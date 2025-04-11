@@ -1,93 +1,70 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="index.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-    <h1>John Roberts CV</h1>
-    <div class="card_grid">
-        <div class="card">
-            <h2>Python</h2>
-            <p>Python is my most used language - I have been a professional Python developer for ten years, and have
-                been using the language for seventeen. I aim to write legible Python, making full use of type
-                annotations and
-                dataclasses and autoformatters where appropriate.</p>
-            <ul>
-                <li>Environment management: I am experienced with pip, pyenv, pipenv, conda and uv.</li>
-                <li>Scientific stack: I have worked extensively with Pandas, Numpy and PostgreSQL for scientific
-                    analysis. I
-                    have both implemented and adapted Jupyter notebooks for published scientific work.</li>
-                <li>Web technology: I have implemented backend APIs in Quart (asyncronous Flask) and FastAPI. I have
-                    also
-                    had extensive experience in Jinja for HTML templating and especially PDF rendering.</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2>Other Technical Skills</h2>
-            <p>In addition to implementing techniques, I have often been responsible for implementing the infrastructure
-                around scientific reporting projects. I would not call myself an administrator, but I am comfortable
-                managing services hosted on both physical and cloud infrastructure.</p>
-            <ul>
-                <li>Containerisation: Docker is my preferred container management engine, using Docker Compose for
-                    service
-                    management. I have touched on Docker Hive. I have no experience with Kubernertes.</li>
-                <li>Data pipelines: During my work at Flowminder, I have been implementing batch processing pipelines
-                    using
-                    Airflow. I have implemented fanouts, mapped tasks and dynamically constructed DAGs using Papermill
-                    templates; I am also familiar with both Operator- and Task- styles of dag implementations.</li>
-                <li>Database technologies: I have implemented small databases mainly in PostgreSQL and MySQL, and
-                    contributed patches to Flowminder's main cellular data record processing toolkit. I have also worked
-                    briefly in Orcale and recently reimplmented a database in Access as a personal favour.</li>
-                <li>Frontend: I have implemented a Java Android application to demonstrate the Forest Sentinel
-                    deforestation
-                    monitoring system. I also maintain our Haiti mobility dashboard, implemented in React.</li>
-                <li>Workflow: I am experienced with Git, and my working environment is Bash + VSCode on Ubuntu. I have
-                    implemented autoamted testing pipelines on CircleCI, and am an occasional user of Makefiles.</li>
-                <li>Security</li>
-                <li>Auth0 flow</li>
-                <li>Cybersecurity lecturer</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2>Architectural Stack</h2>
-            <ul>
-                <li>Big Data</li>
-                <li>Pipelining</li>
-                <li>DAG work</li>
-                <li>Containeriseation</li>
-                <li>Debugging</li>
-                <li>Deployment pipelines</li>
-                <li>Report generation</li>
-                <li>Data management + lineage</li>
-                <li>Execution environments + isolation</li>
-                <li>Remote server management</li>
-                <li>Responsive engineering (?)</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2>Soft skills</h2>
-            <p>Most of my work is supporting academic research; this varies from delivering one-to-one support to
-                operationalising sophisticated techniques in concert with an entire research group. </p>
-            <ul>
-                <li>Used to working with researchers and data scientists</li>
-                <li>Used to working in international projects</li>
-                <li>Used to working with partners in technically channeling situations</li>
-                <li>Have mentored junior engineers</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2>Achievements</h2>
-            <ul>
-                <li>Took existing analytical methods and fit them to an automated pipeline; this is now producing full
-                    reports of modbility in Haiti within 12 hours of data with no human intervention required.</li>
-                <li>Implemented a custom operator to allow analytical notebooks to be used in complex envrironments</li>
-                <li>Got a citation (good) for rapid iteration in response to methods</li>
-                <li>Presented forest monitoring work to the President of Kenya</li>
-            </ul>
-        </div>
-    </div>
-
+-<!DOCTYPE html>
+-<link rel="stylesheet" href="index.css" />
+-<link rel="preconnect" href="https://fonts.googleapis.com">
+-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+-    rel="stylesheet">
+-</head>
+-
+-<body>
+  
+<h1>John Roberts CV</h1>
+<div class="card_grid">
+  <div class="card">
+    <h2>Software development</h2>
+    <p>Python is my most used language - I have been a professional Python developer for ten years, and have been using the language for seventeen. I aim to write legible Python, making full use of type annotations and dataclasses and autoformatters where appropriate.</p>
+    <ul>
+      <li>Scientific stack: I have worked extensively with Pandas, Numpy and PostgreSQL for scientific analysis. I have both implemented and adapted Jupyter notebooks for published scientific work.</li>
+      <li>Web technology: I have implemented backend APIs in Quart (asyncronous Flask) and FastAPI. I have also had extensive experience in Jinja for HTML templating and especially PDF rendering.</li>
+      <li>Database technologies: I have implemented small databases mainly in PostgreSQL and MySQL, and contributed patches to Flowminder's main cellular data record processing toolkit. I have also worked briefly in Orcale and recently reimplmented a database in Access as a personal favour.</li>
+      <li>Frontend: I have implemented a Java Android application to demonstrate the Forst Sentinel deforestation monitoring system. I also maintain our Haiti mobility dashboard, implemented in React.</li>
+      <li>Security: I have worked with Auth0 and implemented secure APIs. I have also implemented the scope-checking system for Flowminder's main query engine.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Other Technical Skills</h2>
+    <p>In addition to implementing techniques, I have often been responsible for implementing the infrastructure around scientific reporting projects. I would not call myself an administrator, but I am comfortable managing services hosting on both physical and cloud infrastructure.</p>
+    <ul>
+      <li>Containerisation: Docker is my preferred container management engine, using Docker Compose for service management. I have touched on Docker Hive. I have no experience with Kubernertes.</li>
+      <li>Data pipelines: During my work at Flowminder, I have been implementing batch processing pipelines using Airflow. I have implemented fanouts, mapped tasks and dynamically constructed DAGs using Papermill templates; I am also familiar with both Operator- and Task- styles of dag implementations.</li>
+      <li>Workflow: I am experienced with Git, and my working environment is Bash + VSCode on Ubuntu. I have implemented autoamted testing pipelines on CircleCI, and am an occasional user of Makefiles.</li>
+      <li>Environment management: I am experienced with pip, pyenv, pipenv, conda and UV for Python, and am familiar with Node and NPM/Yarn for Javascript development.</li>
+      <li>Cloud infrastructue: I have experience with Google Cloud and AWS, running managed compute instnaces, containerised apps and supplemental technologies including IAM, Terraform and hosted database services)</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Soft skills</h2>
+    <p>Most of my work is supporting academic research; this varies from delivering one-to-one support to operationalising sophisticated techniques in concert with an entire research group. </p>
+    <ul>
+      <li><em>Research software engineer:</em> I have spent the majority of my career working with scientists and academics, implementing their techniques. I am used to adapting or rewriting research modules into larger systems while working closely with the original designer to ensure that the results do not drift.</li>
+      <li><em>International work:</em> Many of my projects have been in collaboration with international projects - I have worked with the Kenyan Forestry Service, CONFAOR, IPAM and the Mexican space agency, among others. I have experience identifying key technical partners to work with for delivering the most impact in limited projects.</li>
+      <li><em>Presentation skills:</em> I have four years experience delivering undergraduate lectures. I have also presented research at academic conferences and delivered courses in professional settings.</li>
+      <li><em>Teaching and mentorship:</em> In addition to my teaching experience, I have mentored junior engineers and run several courses for coworkers in good programming practice, version control and machine learning.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Took existing analytical methods and fit them to an automated pipeline; this is now producing full reports of modbility in Haiti within 12 hours of data with no human intervention required.</li>
+      <li>Implemented a custom operator to allow analytical notebooks to be used in complex envrironments</li>
+      <li>Awarded a citation for rapid iteration in response to methods.</li>
+      <li>Presented forest monitoring work to the President of Kenya</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Qualifications</h2>
+    <ul>
+      <li>BSC Robotics</li>
+      <li>Associate Fellow of the College of Higher Education</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Job history</h2>
+    <ul>
+      <li>Flowminder Foundation: backend engineer (2021-present)</li>
+      <li>Centre for Landscape and Climate Research (CLCR): research software engineer (2016-2021)</li>
+      <li>Teaching fellow at the School of Systems Engineering, University of Reading (2012-2016)</li>
+    </ul>
+  </div>
+</div>
 </body>
