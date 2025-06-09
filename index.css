@@ -9,11 +9,6 @@ body {
   column-gap: 5px;
 }
 
-@media screen and (orientation: portrait) {
-  .card_grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .card {
   border: 1px solid grey;
@@ -27,3 +22,11 @@ body {
   gap: 5px;
 }
 
+@media screen and (orientation: portrait) {
+  .card_grid {
+    grid-template-columns: 1fr;
+  }
+  .video {
+    grid-template-columns: 1fr;
+  }
+}
